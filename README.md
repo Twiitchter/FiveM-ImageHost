@@ -7,6 +7,8 @@ Just a few instructions on setting up a image host to upload and view images, co
 
 Setup as per the instructions within its readme.md. 
 
+Forked when confirmed working.
+<https://github.com/Twiitchter/imgpush>
 
 # Utilized by the Screenshot-basic resources
 Client Side:
