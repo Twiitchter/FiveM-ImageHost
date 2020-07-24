@@ -35,6 +35,8 @@ Server Side:
 ```lua
 -- Inside event to be triggered... 
 local id = source
+local server =  'http://THE.IPADDRESS.OFYOUR.IMAGESERVER:5000'
+-- You could try localhoast:port, but I have not done so. 
 
 exports['screenshot-basic']:requestClientScreenshot(id, {encoding = 'png', quality = 0.88}, function(err, data)
     -- if error else false
